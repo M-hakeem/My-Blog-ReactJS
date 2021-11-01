@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(20, 20, 20);
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 100px;
+}
+
+.myBlog .header{
+    margin-bottom: 0;
+}
+.linkStyle{
+    color:white;
+    text-decoration: none;
+}
+.myBlog .new-post{
+    padding: 5px;
+}
+
+.myBlog .new-post form{
+    display:grid;
+    grid-template-columns: 11fr 2fr;
+    grid-gap: 10px;
+    min-height: 30px;
+}
+.new-post form button{
+    background-color: rgb(20, 20, 20);
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+.myBlog .new-post form input{
+    padding-left: 20px;
+}
+.data{
+    padding: 10px 5px 10px 10px;
+    margin-bottom: 10px;
+    background-color: #d3d3d349;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.post-data{
+    padding: 10px;
+    list-style: none;
+}
+
+.data button{
+    height: 30px;
+    width:30px;
+    border:none;
+    font-weight: 600;
+    background-color: rgb(252, 5, 5);
+    color:white;
+    cursor: pointer;
+}
+
+.data p{
+    cursor: pointer;
+    user-select: none;
+}
+.about{
+    text-align: center;
+}
